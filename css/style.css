@@ -558,6 +558,10 @@ footer span {
 }
 
 @media (max-width: 700px) {
+  html {
+    scroll-padding-top: 5px;
+  }
+
   #navbar ul {
     display: none;
   }
