@@ -469,6 +469,18 @@ footer span {
 }
 
 /* MOBILE */
+@media (max-width: 1375px) {
+
+  .skills-container {
+    margin-bottom: 1em;
+  }
+
+  .skill {
+    min-width: 250px;
+    min-height: 200;
+  }
+}
+
 @media (max-width: 1200px) {
   #skills {
     height: min-content;
@@ -482,7 +494,6 @@ footer span {
 
   .skills-container {
     flex-direction: column;
-    margin-bottom: 1em;
   }
 
   .skill {
