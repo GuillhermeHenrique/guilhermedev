@@ -61,7 +61,7 @@ html {
   bottom: 0;
   left: 0;
   z-index: 10;
-  transform: translateX(-82.5%);
+  transform: translateX(-82.8%);
   transition: 0.5s;
   display: none;
 }
@@ -157,7 +157,6 @@ html {
   font-style: italic;
   transition: 0.1s;
   color: #009dff;
-  width: 425px;
 }
 
 .home-container p:hover {
@@ -470,7 +469,7 @@ footer span {
 }
 
 /* MOBILE */
-@media (max-width: 1440px) {
+@media (max-width: 1400px) {
   #skills {
     height: min-content;
     margin-bottom: 0.5em;
@@ -569,26 +568,46 @@ footer span {
 }
 
 @media (max-width: 425px) {
+  p {
+    font-size: 17px;
+  }
+
   .title-container {
     text-align: center;
   }
 
+  .title-container h2 {
+    font-size: 40px;
+  }
+
+  /* HOME */
   .home-container {
-    padding-left: 2em;
+    padding-left: 0;
     padding-right: 0;
+    text-align: center;
+    justify-content: center;
   }
 
   .home-container .title h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .home-container .title p {
     font-size: 20px;
   }
 
+  .home-container .buttons {
+    justify-content: center;
+  }
+
+  /* ABOUT */
   .about-container {
     padding: 0 3em;
     text-align: center;
+  }
+
+  .about-container .about-description {
+    margin-top: 1em;
   }
 
   .about-container .about-description p {
@@ -597,6 +616,7 @@ footer span {
 
   .informations-container {
     padding-right: 0;
+    margin-top: 1em;
   }
 
   .informations .information span {
@@ -607,9 +627,35 @@ footer span {
     font-size: 12px;
   }
 
-  .projects {
-    gap: 3em;
+  /* SKILLS */
+  .skill-title {
+    margin-bottom: 1em;
   }
+
+  /* PROJECTS */
+
+  #projects {
+    margin-bottom: 0;
+  }
+
+  .projects {
+    gap: 1.3em;
+  }
+
+  .projects-title {
+    margin-bottom: 1em;
+  }
+
+  .projects .project {
+    margin-top: 0;
+    justify-content: start;
+  }
+
+  .projects .project h2 {
+    font-size: 20px;
+  }
+
+  /* CONTACT */
 
   .image-container {
     display: none;
@@ -617,11 +663,12 @@ footer span {
 
   .contact-container {
     padding: 0 5vh;
+    margin-top: 0;
   }
 
   .link-container {
     width: 100%;
-    padding: 1em 2em;
+    padding: 0 2em;
   }
 
   .text-container {
@@ -629,33 +676,38 @@ footer span {
   }
 
   .text-container h1 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .text-container h3 {
+    font-size: 15px;
   }
 
   .links {
     justify-content: center;
   }
 
-  footer {
+  footer p {
     font-size: 15px;
   }
 }
 
 @media (max-width: 375px) {
-  .title-container h2 {
-    font-size: 25px;
-  }
-
   p {
     font-size: 15px;
   }
 
-  h2 {
-    font-size: 20px;
+  .title-container {
+    text-align: center;
   }
 
+  .title-container h2 {
+    font-size: 30px;
+  }
+
+  /* HOME */
   .home-container {
-    padding-left: 2em;
+    padding-left: 0;
   }
 
   .home-container .title h1 {
@@ -667,23 +719,60 @@ footer span {
   }
 
   .buttons button {
-    padding: 0.3em 2em;
+    font-size: 10px;
+    padding: 0.5em 4em;
+  }
+
+  /* ABOUT */
+  .about-container .about-description p {
+    font-size: 10px;
   }
 
   .informations .information p,
   .informations .information span {
-    font-size: 8px;
+    font-size: 10px;
+  }
+
+  /* SKILLS */
+  .skill {
+    min-width: 250px;
+    min-height: 200px;
+  }
+
+  /* PROJECTS */
+
+  #projects .title-container {
+    margin-top: 0;
   }
 
   .projects {
-    gap: 6.5em;
+    gap: 1.2em;
   }
 
+  .projects .project p {
+    font-size: 10px;
+  }
+
+  /* CONTACT */
   .text-container h1 {
+    font-size: 20px;
+  }
+
+  .text-container p {
+    font-size: 10px;
+  }
+
+  .text-container h3 {
+    font-size: 13px;
+  }
+
+  .linkedin i,
+  .github i,
+  .email i {
     font-size: 25px;
   }
 
   footer p {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
