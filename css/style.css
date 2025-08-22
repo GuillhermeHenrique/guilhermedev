@@ -469,7 +469,7 @@ footer span {
 }
 
 /* MOBILE */
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   #skills {
     height: min-content;
     margin-bottom: 0.5em;
