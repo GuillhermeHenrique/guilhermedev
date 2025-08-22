@@ -562,8 +562,8 @@ footer span {
     display: none;
   }
 
-  .mobile-container {
-    display: flex;
+  #navbar {
+    display: none;
   }
 }
 
@@ -694,7 +694,7 @@ footer span {
 
 @media (max-width: 375px) {
   p {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .title-container {
@@ -703,6 +703,10 @@ footer span {
 
   .title-container h2 {
     font-size: 30px;
+  }
+
+  .title-container p {
+    font-size: 10px;
   }
 
   /* HOME */
@@ -730,13 +734,17 @@ footer span {
 
   .informations .information p,
   .informations .information span {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   /* SKILLS */
   .skill {
     min-width: 250px;
     min-height: 200px;
+  }
+
+  .skill-description p {
+    font-size: 12px;
   }
 
   /* PROJECTS */
@@ -754,6 +762,10 @@ footer span {
   }
 
   /* CONTACT */
+  #contact {
+    margin-bottom: 2em;
+  }
+
   .text-container h1 {
     font-size: 20px;
   }
@@ -763,7 +775,7 @@ footer span {
   }
 
   .text-container h3 {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .linkedin i,
@@ -772,7 +784,12 @@ footer span {
     font-size: 25px;
   }
 
+  /* FOOTER */
+  footer {
+    height: 8vh;
+  }
+
   footer p {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
