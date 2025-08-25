@@ -36,7 +36,6 @@ html {
   gap: 1em;
   list-style: none;
   font-size: 20px;
-  /* display: none; */
 }
 
 #navbar ul li a {
@@ -53,76 +52,12 @@ html {
   font-size: 30px;
 }
 
-/* NAVBAR MOBILE*/
-.mobile-container {
-  display: flex;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-  transform: translateX(-82.8%);
-  transition: 0.5s;
-  display: none;
-}
-
-#navbar-mobile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1.5em;
-  background-color: #000000eb;
-  min-width: 40vh;
-}
-
-#navbar-mobile .link-section ul {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  list-style: none;
-  font-size: 20px;
-  margin-bottom: 2em;
-}
-
-#navbar-mobile .link-contact ul {
-  display: flex;
-  gap: 1em;
-  list-style: none;
-  font-size: 20px;
-}
-
-#navbar-mobile ul li a {
-  text-decoration: none;
-  color: #c8c8c8;
-  transition: 0.3s;
-}
-
-#navbar-mobile ul li a:hover {
-  color: #fff;
-}
-
-#navbar-mobile .link-contact ul li a {
-  font-size: 30px;
-}
-
-#navbar-button {
-  height: 35px;
-  font-size: 30px;
-  padding: 0.8em 0.5em;
-  cursor: pointer;
-  background-color: transparent;
-}
-
-.active {
-  transform: translateX(0);
-}
-
 /* HOME */
 #home {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-image: url("/images/setup-secundario.jpg");
+  background-image: url("/images/setup.jpg");
   background-size: cover;
   background-position: 100% 90%;
   z-index: 1;
@@ -147,7 +82,7 @@ html {
 }
 
 .home-container .title h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: bold;
   color: #fff;
 }
@@ -618,7 +553,14 @@ footer span {
   }
 
   /* HOME */
+
+  #home {
+    background-position: top;
+    background-image: url("/images/setup_to_responsivo.jpg");
+  }
+
   .home-container {
+    padding-top: 27vh;
     padding-left: 0;
     padding-right: 0;
     text-align: center;
@@ -635,6 +577,7 @@ footer span {
 
   .home-container .buttons {
     justify-content: center;
+    margin-top: 1em;
   }
 
   /* ABOUT */
@@ -700,7 +643,7 @@ footer span {
 
   .contact-container {
     padding: 0 5vh;
-    margin-top: 0;
+    margin-top: .5em;
   }
 
   .link-container {
