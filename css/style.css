@@ -14,6 +14,22 @@ html {
   scroll-padding-top: 85px;
 }
 
+/* Barra de rolagem */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Parte interna */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Polegar */
+::-webkit-scrollbar-thumb {
+  background: #009dff;
+  border-radius: 5px;
+}
+
 /* NAVBAR */
 #navbar {
   max-height: 10vh;
