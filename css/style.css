@@ -297,7 +297,7 @@ html {
 
 .projects {
   display: flex;
-  gap: 1.5em;
+  gap: 1.65em;
   /* margin: 0.5em; */
   overflow: hidden;
   scroll-behavior: smooth;
