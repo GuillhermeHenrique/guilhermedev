@@ -297,7 +297,7 @@ html {
 
 .projects {
   display: flex;
-  gap: 2.2em;
+  gap: 1.5em;
   /* margin: 0.5em; */
   overflow: hidden;
   scroll-behavior: smooth;
@@ -639,7 +639,7 @@ footer span {
   }
 
   .projects {
-    gap: 1.3em;
+    gap: 1.2em;
   }
 
   .projects-title {
