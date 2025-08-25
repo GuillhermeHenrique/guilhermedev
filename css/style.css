@@ -537,6 +537,10 @@ footer span {
   #navbar {
     display: none;
   }
+
+  .text-container p {
+    padding-right: 2em;
+  }
 }
 
 @media (max-width: 425px) {
@@ -643,7 +647,7 @@ footer span {
 
   .contact-container {
     padding: 0 5vh;
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
 
   .link-container {

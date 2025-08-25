@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/png" href="/images/favicon2.svg" />
     <title>Guilherme - Full Stack Developer</title>
     <!-- CSS -->
@@ -82,7 +83,7 @@
         </div>
         <div class="about-container">
           <div class="about-description">
-            <p>
+            <p data-aos="fade-right" data-aos-duration="700">
               With a strong academic background and a passion for technology, I
               am a software developer holding a technical degree in Systems
               Analysis and Development from ETECAP. I'm also currently pursuing
@@ -92,7 +93,11 @@
               platforms like Alura and Udemy.
             </p>
             <div class="informations-container">
-              <div class="informations">
+              <div
+                class="informations"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
                 <div class="information">
                   <span>-</span>
                   <p>Web Applications</p>
@@ -106,7 +111,11 @@
                   <p>Back-End Services</p>
                 </div>
               </div>
-              <div class="informations">
+              <div
+                class="informations"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
                 <div class="information">
                   <span>-</span>
                   <p>Front-End Interfaces</p>
@@ -132,7 +141,11 @@
           <h2>Skills</h2>
           <p>My technical skills.</p>
         </div>
-        <div class="skills-container">
+        <div
+          class="skills-container"
+          data-aos="zoom-in"
+          data-aos-duration="900"
+        >
           <div class="skill">
             <i class="fa-brands fa-node-js"></i>
             <div class="skill-description">
@@ -169,7 +182,11 @@
             </div>
           </div>
         </div>
-        <div class="skills-container">
+        <div
+          class="skills-container"
+          data-aos="zoom-in"
+          data-aos-duration="900"
+        >
           <div class="skill">
             <i class="fa-solid fa-key"></i>
             <div class="skill-description">
@@ -228,7 +245,7 @@
             <div class="project">
               <h2>DogMatch: Adopt a dog</h2>
               <img src="/images/dogmatch_image.png" alt="dogmatch" />
-              <p>
+              <p data-aos="zoom-in" data-aos-duration="700">
                 DogMatch is a fully functional and scalable pet adoption
                 platform built from scratch with a modern full-stack
                 architecture. Designed to connect dogs with their ideal human
@@ -283,7 +300,11 @@
         </div>
         <div class="contact-container">
           <div class="link-container">
-            <div class="text-container">
+            <div
+              class="text-container"
+              data-aos="fade-right"
+              data-aos-duration="700"
+            >
               <h1>Connect with me!</h1>
               <p>
                 "Your network is the people who want to help you, and you want
@@ -294,7 +315,7 @@
                 <span>Co-founder of LinkedIn</span>
               </h3>
             </div>
-            <div class="links">
+            <div class="links" data-aos="fade-right" data-aos-duration="700">
               <div class="linkedin">
                 <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
               </div>
@@ -318,5 +339,9 @@
         ><span> All rights reserved.</span>
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
